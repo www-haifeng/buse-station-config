@@ -9,6 +9,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableFeignClients
+@MapperScan("com.shuzhi.mapper")
 public class BusStationConfigApplication {
     public static void main(String[] args) {
         SpringApplication.run(BusStationConfigApplication.class, args);
